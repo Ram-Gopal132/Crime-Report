@@ -1,0 +1,142 @@
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+	text-decoration:none;
+	
+}
+.text_color
+{
+	padding:2px;
+}
+
+
+
+body{
+	height:850px;
+	background:url(../siteImages/new.jpg) no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+
+.menu{
+	margin:0px;
+	height:100;
+	background:#7F8C8A;
+	
+}
+
+h4{
+	margin-left:40;
+	font-size:27px;
+	font-family:Monotype Corsiva;
+color:#8d0f0f;
+}
+span{
+	color:#131790;
+}
+.navbar
+{
+	margin-top:0px;
+	margin-left:40;
+}
+
+header{
+	position:absolute;
+	top:50;
+	left:0;
+	right:0;
+	margin-top:50px;
+	padding:10px 7%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	z-index:1000;
+}
+header .logo{
+	font-weight:bolder;
+	font-size:25px;
+	color:orange;
+	font-family:times new roman;
+}
+
+header .navbar ul{
+	list-style:none;
+	transition: color .2s ease-out;
+}
+header .navbar ul li {
+	position:relative;
+	float:left;
+	padding:3px;
+	color:white;
+	
+}
+
+header .navbarl ul li a{
+	font-size:21px;
+	padding:10px;
+	color:white;
+	display:block;
+
+}
+
+header .navbarl ul li a:hover{
+	
+	color:white;
+	
+}
+
+a.text_color{
+	color:white;
+	font-size:1.2em;
+		font-family:Rockwell;
+}
+a.text{
+	color:white;
+}
+
+ a.text_color:hover{
+ 	background:#E0E0E0;
+	color:white;
+	
+}
+
+header .navbar ul li ul{
+	position:absolute;
+	left:8px;
+	top:30px;
+	width:150px;
+	background-color: rgba(255,255,255,0.02);
+	color:white;
+	display:none;
+}
+
+header .navbar ul li:hover>ul{
+	display:initial;
+	color:white;
+}
+header .navbar ul li ul li:hover
+{
+	background:#E0E0E0;
+	
+}
+.sp{
+	width:100%;
+	height:50px;
+}
+select
+{
+	
+	width: 300px;
+
+	
+}
+.another{
+	text-align:center;
+}
+
+
+
+

@@ -1,0 +1,133 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	min-height:100vh;
+	background-size:cover;
+	
+}
+h2{
+	color:#2874A6;
+	margin-left:36%;
+	margin-top:10px;
+	text-decoration:underline;
+}
+
+.container{
+	width:795px;
+	height:520px;
+	background:rgba(0,0,0,.12);
+	border:1px solid grey;
+	border-top-left-radius:40px;
+	border-bottom-right-radius:40px;
+	backdrop-filter:blur(10px);
+	margin-left:20%;
+	margin-top:10%;
+	color:white;	
+}
+
+select{
+	height: 30px;
+  width: 740px;
+  margin-left:20px;
+  margin-top: 10px; 
+  background-color:lightgrey;
+  border:2px solid black;
+  font-size:15px;
+  font-family:times new roman;
+}
+
+.size{
+	height: 30px;
+  width:740px;
+   margin-left:20px;
+  margin-top: 10px; 
+  background-color:lightgrey;
+  border:2px solid black;
+  border-radius:7px;
+  font-size:15px;
+  font-family:times new roman;
+}
+
+.size1{
+	height: 30px;
+  width:200px;
+   margin-left:20px;
+  margin-top: 50px; 
+  background-color:lightgrey;
+  border:2px solid black;
+  font-size:15px;
+  font-family:times new roman;
+}
+.txtarea{
+	margin-left:20px;
+  margin-top: 10px; 
+  background-color:lightgrey;
+   border:2px solid black; 
+   border-radius:7px;
+}
+
+.blink {
+	margin-left:10px;
+  margin-top: 10px; 
+  animation: blinker 1s step-start infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.btn{
+	width:250px;
+	height:40px;
+	background-color:#2874A6;
+	color:white;
+	border:none;
+	font-size:22px;
+	font-family:times new roman;
+	border-radius:25px;
+	margin-top:30px;
+	margin-left:260px;
+	cursor:pointer;
+}
+
+.btn:hover{
+	border:1px solid lightgrey;
+	color:white;
+	font-size:20px;
+	
+}
+
+.count{
+	width:350px;
+	height:450px;
+	margin-left:36%;
+	margin-top:10%;
+	text-align:center;	
+	background:rgba(0,0,0,.12);
+	border:1px solid grey;
+	border-top-left-radius:40px;
+	border-bottom-right-radius:40px;
+	backdrop-filter:blur(10px);
+}
+.ano{
+	margin-top:10px;
+	font-size:18px;
+	font-family:times new roman;
+	color:white;
+}
+h3{
+	text-decoration:underline;
+	font-size:25px;
+	color:red;
+	margin-top:30px;
+}
+ a font:hover
+{
+	text-decoration:underline;
+}
+	

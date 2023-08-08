@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+
+select {
+	
+	width: 200px;
+}
+
+
+input[type=text]
+	{
+		width: 200px;
+	}
+	

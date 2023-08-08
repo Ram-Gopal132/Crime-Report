@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+id="webApp_ID" version="3.1">
+<listener>
+
+<listener-class>com.app.Database_connection</listener-class>
+</listener>
+
+
+<servlet>
+		<servlet-name>RecordUploadServlet</servlet-name>
+		<servlet-class>com.app.RecordUploadServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+
+			<servlet-name>RecordUploadServlet</servlet-name>
+			<url-pattern>/RecordUploadServlet</url-pattern>
+
+
+</servlet-mapping>
+
+
+<servlet>
+		<servlet-name>LoanSubmitted</servlet-name>
+		<servlet-class>com.app.LoanSubmitted</servlet-class>
+</servlet>
+
+<servlet-mapping>
+
+			<servlet-name>LoanSubmitted</servlet-name>
+			<url-pattern>/LoanSubmitted</url-pattern>
+
+</servlet-mapping>
+
+
+<display-name>April_4</display-name>
+<welcome-file-list>
+<welcome-file>index.jsp</welcome-file>
+</welcome-file-list>
+</web-app>
