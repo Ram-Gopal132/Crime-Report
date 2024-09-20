@@ -24,6 +24,7 @@ public  class DatabaseConnection implements ServletContextListener{
 		}
 	}
 	public void contextDestroyed(ServletContextEvent sce)
+
 	{
 		try
 		{
